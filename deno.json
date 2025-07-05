@@ -1,0 +1,14 @@
+{
+  "tasks": {
+    "example": "deno run --allow-net --allow-read --allow-write --allow-run --allow-env --allow-sys examples/basic-example.ts",
+    "scrape": "deno run --allow-net --allow-read --allow-write --allow-run --allow-env --allow-sys examples/scraper-example.ts",
+    "test": "deno run --allow-net --allow-read --allow-write --allow-run --allow-env --allow-sys tests/simple-test.ts",
+    "test-advanced": "deno run --allow-net --allow-read --allow-write --allow-run --allow-env --allow-sys tests/test-example.ts",
+    "install-browsers": "npx playwright@1.40.0 install",
+    "dev": "deno run --allow-net --allow-read --allow-write --allow-run --allow-env --allow-sys --watch"
+  },
+  "imports": {
+    "playwright": "npm:playwright@1.40.0",
+    "playwright/": "npm:playwright@1.40.0/"
+  }
+}

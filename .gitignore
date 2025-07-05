@@ -1,0 +1,97 @@
+# Deno + Playwright .gitignore
+
+# Deno specific
+deno.lock
+.deno/
+
+# Node modules (if using npm packages)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Playwright specific
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# Screenshots and media files (optional - uncomment if you don't want to commit them)
+# screenshots/
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.mp4
+# *.webm
+
+# Test artifacts
+test-results/
+coverage/
+*.lcov
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Temporary folders
+tmp/
+temp/
+.tmp/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Cache directories
+.cache/
+.parcel-cache/
+
+# Backup files
+*.bak
+*.backup
+*.old
+
+# Local development files
+.local/
+local/
+
+# Browser downloads directory (if created by tests)
+downloads/
+
+# Custom ignore patterns (add your own below)
+# my-custom-file.txt
+
+*.png
